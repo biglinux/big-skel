@@ -1,6 +1,6 @@
 [Appearance]
 AntiAliasFonts=true
-BoldIntense=false
+BoldIntense=true
 ColorScheme=BigLinux Dark
 EmojiFont=Noto Color Emoji,17,-1,5,50,0,0,0,0,0
 Font=NotoMono Nerd Font,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
