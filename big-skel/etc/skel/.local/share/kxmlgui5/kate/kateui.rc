@@ -108,6 +108,7 @@
   <Merge/>
   <DefineGroup name="before_tools"/>
   <Action name="sessions"/>
+  <Separator weakSeparator="1"/>
   <Menu alreadyVisited="1" name="tools" noMerge="1">
    <text translationDomain="kxmlgui6">&amp;Tools</text>
    <Action name="tools_external"/>
@@ -205,6 +206,6 @@
  <ActionProperties>
   <Action name="file_new" priority="0"/>
   <Action name="file_open" priority="0"/>
-  <Action name="options_show_menubar" priority="0"/>
+  <Action icon="overflow-menu" name="options_show_menubar" priority="0"/>
  </ActionProperties>
 </gui>
