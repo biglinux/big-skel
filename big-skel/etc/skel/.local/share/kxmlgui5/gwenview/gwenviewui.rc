@@ -1,5 +1,5 @@
 <!DOCTYPE gui>
-<gui name="gwenview" translationDomain="kxmlgui6" version="68">
+<gui name="gwenview" translationDomain="kxmlgui6" version="69">
  <MenuBar alreadyVisited="1">
   <Menu alreadyVisited="1" name="file" noMerge="1">
    <text translationDomain="kxmlgui6">&amp;File</text>
@@ -74,6 +74,8 @@
    <Separator weakSeparator="1"/>
    <Action name="browse"/>
    <Action name="view"/>
+   <Separator/>
+   <Action name="view_toggle_spotlightmode"/>
    <Separator/>
    <Action name="fullscreen"/>
    <Separator/>
@@ -174,5 +176,6 @@
   <Action name="go_previous" priority="128"/>
   <Action name="red_eye_reduction" priority="0"/>
   <Action name="toggle_slideshow" priority="0"/>
+  <Action icon="overflow-menu" name="options_show_menubar"/>
  </ActionProperties>
 </gui>
