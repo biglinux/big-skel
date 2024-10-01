@@ -83,3 +83,11 @@ qt-max-volume=100
 
 # When to raise the interface (integer)
 #qt-auto-raise=1
+
+[core] # core program
+
+# Mouse wheel vertical axis control (integer)
+hotkeys-y-wheel-mode=2
+
+# Mouse wheel horizontal axis control (integer)
+hotkeys-x-wheel-mode=0
