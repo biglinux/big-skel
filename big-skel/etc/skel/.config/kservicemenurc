@@ -94,3 +94,4 @@ tfe=true
 tiff=true
 transparent2color=true
 view_metadata=true
+tagsfileitemaction=false
