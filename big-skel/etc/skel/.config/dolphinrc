@@ -22,9 +22,6 @@ IconSize=16
 [PlacesPanel]
 IconSize=16
 
-[Toolbar mainToolBar]
-IconSize=16
-
 [PreviewSettings]
 Plugins=appimagethumbnail,cursorthumbnail,fontthumbnail,ffmpegthumbs,audiothumbnail,djvuthumbnail,blenderthumbnail,mobithumbnail,gsthumbnail,rawthumbnail,comicbookthumbnail,opendocumentthumbnail,kraorathumbnail,ebookthumbnail,windowsexethumbnail,imagethumbnail,windowsimagethumbnail,exrthumbnail,jpegthumbnail,svgthumbnail,directorythumbnail
 
