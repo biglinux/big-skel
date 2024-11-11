@@ -51,7 +51,7 @@ Auto Save=false
 Auto Save Interval=0
 Auto Save On Focus Out=false
 BOM=false
-Backup Local=true
+Backup Local=false
 Backup Prefix=
 Backup Remote=false
 Backup Suffix=~tmp
@@ -162,8 +162,9 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [Konsole]
-AutoSyncronize=1
-KonsoleEscKeyBehaviour=false
+AutoSyncronize=true
+AutoSyncronizeMode=1
+KonsoleEscKeyBehaviour=true
 KonsoleEscKeyExceptions=vi,vim,nvim,git
 RemoveExtension=false
 RunPrefix=

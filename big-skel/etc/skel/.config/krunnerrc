@@ -1,4 +1,5 @@
 [General]
+ActivateWhenTypingOnDesktop=false
 ActivityAware=false
 FreeFloating=true
 HistoryEnabled=false
@@ -15,7 +16,7 @@ PIM Contacts Search RunnerEnabled=false
 PowerDevilEnabled=false
 Spell CheckerEnabled=false
 appstreamEnabled=false
-baloosearchEnabled=true
+baloosearchEnabled=false
 bookmarksEnabled=true
 calculatorEnabled=true
 desktopsessionsEnabled=true
@@ -24,13 +25,8 @@ installerEnabled=false
 katesessionsEnabled=false
 konsoleprofilesEnabled=false
 krunner_appstreamEnabled=false
-krunner_charrunnerEnabled=false
-krunner_dictionaryEnabled=false
-krunner_katesessionsEnabled=false
-krunner_recentdocumentsEnabled=false
 krunner_spellcheckEnabled=false
 krunner_systemsettingsEnabled=true
-krunner_webshortcutsEnabled=false
 kwinEnabled=false
 locationsEnabled=false
 org.kde.activitiesEnabled=true
@@ -44,6 +40,3 @@ shellEnabled=true
 unitconverterEnabled=true
 webshortcutsEnabled=false
 windowsEnabled=true
-
-[Plugins][Favorites]
-plugins=windows,krunner_systemsettings,krunner_services

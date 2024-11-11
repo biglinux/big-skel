@@ -1,10 +1,8 @@
 <!DOCTYPE gui>
-<gui name="dolphin" translationDomain="kxmlgui6" version="38">
+<gui name="dolphin" translationDomain="kxmlgui6" version="39">
  <MenuBar alreadyVisited="1">
   <Menu alreadyVisited="1" name="file" noMerge="1">
    <text translationDomain="kxmlgui6">&amp;File</text>
-   <Action name="file_new"/>
-   <Separator weakSeparator="1"/>
    <Action name="file_new"/>
    <Separator weakSeparator="1"/>
    <Action name="new_menu"/>
@@ -27,23 +25,9 @@
    <Action name="file_close"/>
    <Separator weakSeparator="1"/>
    <Action name="file_quit"/>
-   <Separator weakSeparator="1"/>
-   <Action name="file_close"/>
-   <Separator weakSeparator="1"/>
-   <Action name="file_quit"/>
   </Menu>
   <Menu alreadyVisited="1" name="edit" noMerge="1">
    <text translationDomain="kxmlgui6">&amp;Edit</text>
-   <Action name="edit_undo"/>
-   <Separator weakSeparator="1"/>
-   <Action name="edit_cut"/>
-   <Action name="edit_copy"/>
-   <Action name="edit_paste"/>
-   <Separator weakSeparator="1"/>
-   <Action name="edit_select_all"/>
-   <Separator weakSeparator="1"/>
-   <Action name="edit_find"/>
-   <Separator weakSeparator="1"/>
    <Action name="edit_undo"/>
    <Separator weakSeparator="1"/>
    <Action name="edit_cut"/>
@@ -78,11 +62,6 @@
    <Action name="view_redisplay"/>
    <Separator weakSeparator="1"/>
    <Action name="view_zoom_in"/>
-   <Action name="view_zoom_out"/>
-   <Separator weakSeparator="1"/>
-   <Action name="view_redisplay"/>
-   <Separator weakSeparator="1"/>
-   <Action name="view_zoom_in"/>
    <Action name="view_zoom_reset"/>
    <Action name="view_zoom_out"/>
    <Separator/>
@@ -93,7 +72,8 @@
    <Action name="show_in_groups"/>
    <Action name="show_hidden_files"/>
    <Separator/>
-   <Action name="split_view"/>
+   <Action name="split_view_menu"/>
+   <Action name="popout_split_view"/>
    <Action name="split_stash"/>
    <Action name="redisplay"/>
    <Action name="stop"/>
@@ -114,17 +94,9 @@
    <Action name="go_forward"/>
    <Action name="go_home"/>
    <Separator weakSeparator="1"/>
-   <Action name="go_up"/>
-   <Action name="go_back"/>
-   <Action name="go_forward"/>
-   <Action name="go_home"/>
-   <Separator weakSeparator="1"/>
    <Action name="bookmarks"/>
    <Action name="closed_tabs"/>
   </Menu>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
-  <Separator weakSeparator="1"/>
   <Menu alreadyVisited="1" name="tools" noMerge="1">
    <text translationDomain="kxmlgui6">&amp;Tools</text>
    <Action name="open_preferred_search_tool"/>
@@ -134,16 +106,8 @@
    <Action name="compare_files"/>
    <Action name="change_remote_encoding"/>
   </Menu>
-  <Menu alreadyVisited="1" name="settings" noMerge="1">
+  <Menu name="settings" noMerge="1">
    <text translationDomain="kxmlgui6">&amp;Settings</text>
-   <Action name="options_show_menubar"/>
-   <Action name="options_show_statusbar"/>
-   <Separator weakSeparator="1"/>
-   <Action name="switch_application_language"/>
-   <Action name="options_configure_keybinding"/>
-   <Action name="options_configure_toolbars"/>
-   <Action name="options_configure"/>
-   <Separator weakSeparator="1"/>
    <Action name="options_show_menubar"/>
    <Merge name="StandardToolBarMenuHandler"/>
    <Merge name="KMDIViewActions"/>
@@ -155,22 +119,12 @@
    <Action name="options_configure"/>
   </Menu>
   <Separator weakSeparator="1"/>
-  <Menu alreadyVisited="1" name="help" noMerge="1">
+  <Menu name="help" noMerge="1">
    <text translationDomain="kxmlgui6">&amp;Help</text>
    <Action name="help_contents"/>
    <Action name="help_whats_this"/>
    <Action name="open_kcommand_bar"/>
    <Separator weakSeparator="1"/>
-   <Action name="help_contents"/>
-   <Action name="help_whats_this"/>
-   <Action name="open_kcommand_bar"/>
-   <Separator weakSeparator="1"/>
-   <Action name="help_report_bug"/>
-   <Separator weakSeparator="1"/>
-   <Action name="help_donate"/>
-   <Separator weakSeparator="1"/>
-   <Action name="help_about_app"/>
-   <Action name="help_about_kde"/>
    <Action name="help_report_bug"/>
    <Separator weakSeparator="1"/>
    <Action name="help_donate"/>
@@ -234,7 +188,7 @@
   <Action name="icons" priority="0"/>
   <Action name="new_tab" priority="0"/>
   <Action name="open_in_new_tab" priority="0"/>
-  <Action name="options_show_menubar" priority="0"/>
+  <Action icon="overflow-menu" name="options_show_menubar" priority="0"/>
   <Action name="show_filter_bar" priority="0"/>
   <Action name="show_information_panel" priority="0"/>
   <Action name="show_preview" priority="0"/>

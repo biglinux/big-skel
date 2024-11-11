@@ -20,7 +20,7 @@ ToolBarsMovable=Disabled
 HideMenuBarWarning=false
 
 [SideBar]
-InformationSplitterSizes=0,0
+InformationSplitterSizes=225,250
 IsVisible ViewMode=false
 
 [ThumbnailView]

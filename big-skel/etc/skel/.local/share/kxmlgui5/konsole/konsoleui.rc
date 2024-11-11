@@ -46,6 +46,7 @@
    <text translationDomain="konsole">Plugins</text>
    <ActionList name="plugin-submenu"/>
   </Menu>
+  <Separator weakSeparator="1"/>
   <Menu alreadyVisited="1" name="settings" noMerge="1">
    <text translationDomain="kxmlgui6">&amp;Settings</text>
    <DefineGroup name="session-settings"/>
@@ -88,7 +89,10 @@
   <text translationDomain="kxmlgui6">Main Toolbar</text>
   <index>0</index>
   <Action name="new-tab"/>
+  <Action name="bookmark"/>
   <Action name="split-view"/>
-  <Action name="add_bookmark"/>
  </ToolBar>
+ <ActionProperties scheme="Default">
+  <Action icon="bookmark" name="bookmark"/>
+ </ActionProperties>
 </gui>

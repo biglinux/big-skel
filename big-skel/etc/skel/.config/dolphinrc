@@ -10,14 +10,19 @@ showHovered=false
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
-Places Icons Static Size=22
+Places Icons Static Size=16
 
 [MainWindow]
 MenuBar=Disabled
 ToolBarsMovable=Disabled
+
+[PlacesPanel]
+IconSize=16
 
 [PreviewSettings]
 Plugins=appimagethumbnail,cursorthumbnail,fontthumbnail,ffmpegthumbs,audiothumbnail,djvuthumbnail,blenderthumbnail,mobithumbnail,gsthumbnail,rawthumbnail,comicbookthumbnail,opendocumentthumbnail,kraorathumbnail,ebookthumbnail,windowsexethumbnail,imagethumbnail,windowsimagethumbnail,exrthumbnail,jpegthumbnail,svgthumbnail,directorythumbnail
 
 [VersionControl]
 enabledPlugins=Git
+
+
