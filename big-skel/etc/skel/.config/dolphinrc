@@ -16,9 +16,6 @@ Places Icons Static Size=16
 MenuBar=Disabled
 ToolBarsMovable=Disabled
 
-[MainWindow][Toolbar mainToolBar]
-IconSize=16
-
 [PlacesPanel]
 IconSize=16
 
