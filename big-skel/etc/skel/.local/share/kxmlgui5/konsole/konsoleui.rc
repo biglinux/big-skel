@@ -93,6 +93,6 @@
   <Action name="split-view"/>
  </ToolBar>
  <ActionProperties scheme="Default">
-  <Action icon="bookmark" name="bookmark"/>
+  <Action icon="bookmarks-bookmarked" name="bookmark"/>
  </ActionProperties>
 </gui>
