@@ -2,8 +2,8 @@
 Description=Picture-in-Picture
 above=true
 aboverule=3
-title=Picture-in-Picture
-titlematch=1
+title=Picture-in-[Pp]icture
+titlematch=3
 types=1
 wmclasscomplete=true
 
