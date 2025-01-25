@@ -1,0 +1,12 @@
+[7ee4e96d-1b45-47e4-bf11-31c0fca2ed52]
+Description=Picture-in-Picture
+above=true
+aboverule=3
+title=Picture-in-Picture
+titlematch=1
+types=1
+wmclasscomplete=true
+
+[General]
+count=1
+rules=7ee4e96d-1b45-47e4-bf11-31c0fca2ed52
