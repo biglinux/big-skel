@@ -1,7 +1,7 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=true
-ColorScheme=BigLinux Dark
+ColorScheme=BigLinux
 EmojiFont=Noto Color Emoji,17,-1,5,50,0,0,0,0,0
 Font=NotoMono Nerd Font,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 LineSpacing=0
@@ -14,9 +14,8 @@ CustomCursorColor=0,0,127
 UseCustomCursorColor=false
 
 [General]
-Command=/bin/bash
 InvertSelectionColors=false
-Name=Bash
+Name=BigLinux
 Parent=FALLBACK/
 TerminalCenter=false
 TerminalMargin=0
