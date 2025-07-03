@@ -1,6 +1,8 @@
 [General]
 BrowseThroughArchives=true
 RememberOpenedTabs=false
+ShowStatusBar=FullWidth
+ShowZoomSlider=true
 ShowToolTips=true
 Version=202
 ViewPropsTimestamp=2024,5,18,19,12,53.429
