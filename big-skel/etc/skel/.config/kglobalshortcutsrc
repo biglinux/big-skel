@@ -1,0 +1,5 @@
+[services][org.communitybig.ashyterm.desktop]
+_launch=Ctrl+Alt+T
+
+[services][org.kde.konsole.desktop]
+_launch=none
