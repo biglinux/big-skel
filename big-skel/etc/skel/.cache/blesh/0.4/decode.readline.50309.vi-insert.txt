@@ -272,7 +272,7 @@
 "\C-t": transpose-chars
 "\C-u": unix-line-discard
 "\C-d": vi-eof-maybe
-"\e\000": vi-movement-mode
+"\e": vi-movement-mode
 "\C-_": vi-undo
 "\C-w": vi-unix-word-rubout
 "\C-y": yank

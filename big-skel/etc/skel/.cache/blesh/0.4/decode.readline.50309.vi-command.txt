@@ -8,6 +8,9 @@
 "h": backward-char
 "\e[1;3D": backward-word
 "\e[1;5D": backward-word
+"*": bash-vi-complete
+"=": bash-vi-complete
+"\\": bash-vi-complete
 "\eOH": beginning-of-line
 "\e[H": beginning-of-line
 "0": beginning-of-line

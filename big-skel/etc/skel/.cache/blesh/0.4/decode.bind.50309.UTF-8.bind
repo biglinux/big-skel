@@ -308,7 +308,7 @@ builtin bind -x '"\C-y":_ble_decode_hook 25; builtin eval -- "$_ble_decode_bind_
 builtin bind    '"\e\C-y":"\xC0\x9B\C-y"'
 builtin bind -x '"\C-z":_ble_decode_hook 26; builtin eval -- "$_ble_decode_bind_hook"'
 builtin bind    '"\e\C-z":"\xC0\x9B\C-z"'
-builtin bind    '"\e":"\xDF\xBC"'
+builtin bind    '"\e":"\xDE\xBC"'
 builtin bind    '"\e\e":"\xC0\x9B\e"'
 builtin bind -x '"\x1C":_ble_decode_hook 28; builtin eval -- "$_ble_decode_bind_hook"'
 builtin bind    '"\e\x1C":"\xC0\x9B\x1C"'
@@ -510,3 +510,4 @@ builtin bind -x '"~":_ble_decode_hook 126; builtin eval -- "$_ble_decode_bind_ho
 builtin bind    '"\e~":"\xC0\x9B~"'
 builtin bind -x '"\177":_ble_decode_hook 127; builtin eval -- "$_ble_decode_bind_hook"'
 builtin bind    '"\e\177":"\xC0\x9B\177"'
+_ble_decode_bind_cache_hash='d2348e25759c982a945fb64c2a8bce9940f78eae'

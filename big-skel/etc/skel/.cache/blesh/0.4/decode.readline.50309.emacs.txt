@@ -109,6 +109,7 @@
 "\eOF": end-of-line
 "\e[F": end-of-line
 "\C-x\C-x": exchange-point-and-mark
+"\ex": execute-named-command
 "\C-f": forward-char
 "\eOC": forward-char
 "\e[C": forward-char
