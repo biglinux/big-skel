@@ -18,6 +18,9 @@ Places Icons Static Size=16
 MenuBar=Disabled
 ToolBarsMovable=Disabled
 
+[ContextMenu]
+ShowOpenTerminal=false
+
 [PlacesPanel]
 IconSize=16
 
