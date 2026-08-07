@@ -21,3 +21,6 @@ ButtonsOnLeft=XIA
 ButtonsOnRight=FSM
 library=org.kde.klassy
 theme=Klassy
+
+[Wayland]
+InputMethod[$e]=/usr/share/applications/org.kde.plasma.keyboard.desktop
